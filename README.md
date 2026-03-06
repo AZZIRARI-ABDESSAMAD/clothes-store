@@ -1,44 +1,88 @@
-# Clothes Store (V1)
+🧥 Hoodie Store
 
-Clothes Store is a React e-commerce project that displays hoodies using a live API.
+A modern React e-commerce application that showcases hoodie products with a clean UI, smooth animations, and cart functionality.
 
-## Features
+Built to practice React, Redux, and modern frontend development.
 
-* Display products from API
-* Filter products by category
-* Product details page
-* Add to cart
-* WhatsApp order button
-* Responsive design
+✨ Features
 
-## Technologies
+🧥 Hoodie product catalog
 
-* React
-* Vite
-* Tailwind CSS
-* Axios
-* React Router
+📄 Product details page
 
-## API
+📏 Size selection (S / M / L / XL)
 
-Products are fetched from:
-https://api.escuelajs.co/api/v1/products
+🛒 Add to cart with Redux
 
-## Installation
+🔗 Related products section
+
+🎞 Smooth animations with Framer Motion
+
+📱 Fully responsive design
+
+🛠 Tech Stack
+Technology	Usage
+React	UI framework
+Vite	Fast development environment
+Tailwind CSS	Styling
+Redux Toolkit	Cart state management
+React Router	Page navigation
+Framer Motion	Animations
+📂 Project Structure
+src
+│
+├── components
+│   └── ProductCard.jsx
+│
+├── pages
+│   ├── Home.jsx
+│   └── ProductDetails.jsx
+│
+├── store
+│   └── cartSlice.js
+│
+├── data
+│   └── hoodies.js
+│
+└── App.jsx
+⚙ Installation
 
 Clone the project and install dependencies:
 
-```
-git clone https://github.com/your-username/clothes-store.git
-cd clothes-store
+git clone https://github.com/AZZIRARI-ABDESSAMAD/hoodie-store.git
+
+cd hoodie-store
+
 npm install
+
 npm run dev
-```
 
-## Version
+Then open:
 
-V1 – Initial release of the Clothes Store project.
+http://localhost:5173
+📦 Version
 
-## Author
+V1 – Initial release
+
+Future improvements planned:
+
+Search products
+
+Category filtering
+
+Cart page
+
+Checkout page
+
+Product ratings
+
+👨‍💻 Author
 
 Abdessamad Azzirari
+
+GitHub
+https://github.com/AZZIRARI-ABDESSAMAD
+
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
