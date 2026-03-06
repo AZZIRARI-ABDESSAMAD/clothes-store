@@ -23,13 +23,13 @@ const Footer = () => {
                         <ul className="space-y-2 text-gray-400 text-sm">
                             <li>Casablanca, Morocco</li>
                             <li>+212 704 752 318</li>
-                            <li>support@clothesstore.ma</li>
+                            <li>support@hoodiestore.ma</li>
                         </ul>
                     </div>
                 </div>
                 <hr className="border-gray-700 my-6" />
                 <div className="text-center text-gray-500 text-sm">
-                    &copy; {new Date().getFullYear()} Clothes Store. All rights reserved.
+                    &copy; {new Date().getFullYear()} Hoodies Store. All rights reserved.
                 </div>
             </div>
         </footer>

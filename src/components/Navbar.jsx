@@ -13,7 +13,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Brand */}
           <Link to="/" className="text-2xl font-extrabold tracking-wider text-white no-underline" style={{ fontFamily: 'Impact, sans-serif' }}>
-            Clothes<span className="text-blue-500">STORE</span>
+            Hoodies<span className="text-blue-500">STORE</span>
           </Link>
 
           {/* Desktop Links */}
